@@ -1,6 +1,6 @@
-package tw.taipei.scteam.common.exception.exception;
+package tw.taipei.scteam.exception.exception;
 
-import tw.taipei.scteam.common.exception.enumeration.BusinessExceptionType;
+import tw.taipei.scteam.exception.enumeration.BusinessExceptionType;
 
 public class IdNotFoundException extends CustomException {
 

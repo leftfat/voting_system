@@ -1,4 +1,4 @@
-package tw.taipei.scteam.common.exception;
+package tw.taipei.scteam.exception;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,12 +8,12 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import tw.taipei.scteam.common.exception.enumeration.BusinessExceptionType;
-import tw.taipei.scteam.common.exception.exception.CustomException;
-import tw.taipei.scteam.common.exception.exception.IdNotFoundException;
-import tw.taipei.scteam.common.exception.exception.UnprocessableEntityException;
-import tw.taipei.scteam.common.exception.response.ErrorResponse;
-import tw.taipei.scteam.common.exception.response.ErrorsResponse;
+import tw.taipei.scteam.exception.enumeration.BusinessExceptionType;
+import tw.taipei.scteam.exception.exception.CustomException;
+import tw.taipei.scteam.exception.exception.IdNotFoundException;
+import tw.taipei.scteam.exception.exception.UnprocessableEntityException;
+import tw.taipei.scteam.exception.response.ErrorResponse;
+import tw.taipei.scteam.exception.response.ErrorsResponse;
 
 @RestControllerAdvice(basePackages = "tw.taipei.scteam")
 public class CustomExceptionHandler {

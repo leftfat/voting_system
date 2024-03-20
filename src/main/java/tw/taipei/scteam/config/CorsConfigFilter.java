@@ -1,4 +1,4 @@
-package tw.taipei.scteam.common.config;
+package tw.taipei.scteam.config;
 
 import java.io.IOException;
 

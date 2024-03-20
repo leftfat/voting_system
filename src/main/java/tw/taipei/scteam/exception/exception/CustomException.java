@@ -1,8 +1,8 @@
-package tw.taipei.scteam.common.exception.exception;
+package tw.taipei.scteam.exception.exception;
 
 
 import lombok.Getter;
-import tw.taipei.scteam.common.exception.enumeration.BusinessExceptionType;
+import tw.taipei.scteam.exception.enumeration.BusinessExceptionType;
 
 @Getter
 public abstract class CustomException extends RuntimeException {

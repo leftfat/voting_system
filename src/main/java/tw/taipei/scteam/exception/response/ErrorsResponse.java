@@ -1,10 +1,10 @@
-package tw.taipei.scteam.common.exception.response;
+package tw.taipei.scteam.exception.response;
 
 import java.util.Map;
 
 import lombok.Getter;
 import lombok.Setter;
-import tw.taipei.scteam.common.exception.enumeration.BusinessExceptionType;
+import tw.taipei.scteam.exception.enumeration.BusinessExceptionType;
 
 @Getter
 @Setter

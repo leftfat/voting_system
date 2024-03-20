@@ -2,9 +2,9 @@ package tw.taipei.scteam.demo.service;
 
 import org.springframework.stereotype.Service;
 
-import tw.taipei.scteam.common.exception.exception.IdNotFoundException;
-import tw.taipei.scteam.common.exception.exception.InternalServerErrorException;
-import tw.taipei.scteam.common.exception.exception.UnprocessableEntityException;
+import tw.taipei.scteam.exception.exception.IdNotFoundException;
+import tw.taipei.scteam.exception.exception.InternalServerErrorException;
+import tw.taipei.scteam.exception.exception.UnprocessableEntityException;
 
 @Service
 // @Transactional(rollbackFor = SQLException.class)

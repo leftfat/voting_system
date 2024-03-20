@@ -1,4 +1,4 @@
-package tw.taipei.scteam.common.exception.enumeration;
+package tw.taipei.scteam.exception.enumeration;
 
 public enum BusinessExceptionType {
   INVALID_PARAMETER_VALUE,
