@@ -7,7 +7,7 @@ import tw.taipei.scteam.exception.exception.InternalServerErrorException;
 import tw.taipei.scteam.exception.exception.UnprocessableEntityException;
 
 @Service
-// @Transactional(rollbackFor = SQLException.class)
+// @Transactional(rollbackFor = Exception.class)
 public class DemoServiceImpl implements DemoService {
 
   @Override

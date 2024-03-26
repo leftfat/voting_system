@@ -1,7 +1,5 @@
 package tw.taipei.scteam.member.service;
 
-import java.sql.SQLException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,7 +12,7 @@ import tw.taipei.scteam.member.domain.result.MemberDetailResult;
 import tw.taipei.scteam.member.repository.MemberRepository;
 
 @Service
-@Transactional(rollbackFor = SQLException.class)
+@Transactional(rollbackFor = Exception.class)
 public class MemberServiceImpl implements MemberService {
 
   // @Autowired
