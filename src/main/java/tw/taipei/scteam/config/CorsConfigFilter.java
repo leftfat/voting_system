@@ -15,7 +15,7 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletResponse;
 
 @Configuration
-@PropertySource("cors.properties")
+@PropertySource("classpath:cors.properties")
 @WebFilter(filterName = "CorsFilter", urlPatterns = "/*")
 public class CorsConfigFilter implements Filter {
 
